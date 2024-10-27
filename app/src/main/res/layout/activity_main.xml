@@ -1,19 +1,22 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/gradient_background">
 
-    <FragmentContainerView
-        android:id="@+id/fragment_data_entry"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:name="com.example.studentinfoapp.DataEntryFragment"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/data_entry_fragment"
+        android:name="com.example.studentinfoapp.DataEntryFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
 
-    <FragmentContainerView
-        android:id="@+id/fragment_display"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:name="com.example.studentinfoapp.DisplayFragment"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/display_fragment"
+        android:name="com.example.studentinfoapp.DisplayFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
 </LinearLayout>
