@@ -31,7 +31,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="7dp"
             android:hint="Age"
             app:boxStrokeColor="@color/design_default_color_primary"
             app:hintTextColor="@color/design_default_color_primary">
