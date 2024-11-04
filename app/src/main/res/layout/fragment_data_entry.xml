@@ -99,7 +99,7 @@
                 android:text="Clear"
                 android:textAllCaps="false"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                app:cornerRadius="8dp" />
+                app:cornerRadius="10dp" />
 
         </LinearLayout>
 
