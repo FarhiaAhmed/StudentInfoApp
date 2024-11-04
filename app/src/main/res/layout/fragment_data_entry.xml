@@ -39,7 +39,8 @@
                 android:id="@+id/edit_age"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number" />
+                android:inputType="number"
+                android:layout_margin="10dp"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
